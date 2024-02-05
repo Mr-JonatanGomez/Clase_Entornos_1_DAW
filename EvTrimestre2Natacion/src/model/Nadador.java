@@ -12,6 +12,7 @@ public class Nadador {
     private int dorsal;
     private float puntuacionEjercicio, dificultadEjercicio, puntuacionFinal;
     private Date fechaNacimiento;
+    private int edad;
 
     private SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -28,12 +29,19 @@ public class Nadador {
 
         this.dificultadEjercicio = dificultadEjercicio;
     }
-    //nadador para TEST LINEA 31
-    public Nadador(String nombre, float puntuacionEjercicio, float dificultadEjercicio) {
+
+    public Nadador(String nombre, float puntuacionEjercicio, float dificultadEjercicio) {//PARA TEST
         this.nombre = nombre;
         //NADADOR DE PRUEBA
         this.puntuacionEjercicio = puntuacionEjercicio;
         this.dificultadEjercicio = dificultadEjercicio;
+    }
+    public Nadador(int edad, float puntuacionEjercicio, float dificultadEjercicio, float puntuacionFinal) {//prueba
+        this.edad = edad;
+        //NADADOR DE PRUEBA
+        this.puntuacionEjercicio = puntuacionEjercicio;
+        this.dificultadEjercicio = dificultadEjercicio;
+        this.puntuacionFinal = puntuacionFinal;
     }
     public Nadador(String nombre, String DNI, Date fechaNacimientoStr, int dorsal, float puntuacionEjercicio, float dificultadEjercicio) throws ParseException {
         Scanner sc = new Scanner(System.in);

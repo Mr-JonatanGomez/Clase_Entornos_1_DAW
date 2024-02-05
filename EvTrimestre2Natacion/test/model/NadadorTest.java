@@ -60,8 +60,8 @@ class NadadorTest {
 
     @Test
     public void testPuntuacionNadador3() {
-        float puntuacionFinal = nadadorPrueba2.puntuacionNadador(5.00f, 3.00f);
-        assertEquals(15.00f, puntuacionFinal, "Fallo de yo que sé");
+        float resultado = nadadorPrueba2.puntuacionNadador(5.00f, 3.00f);
+        assertEquals(15.00f, resultado, "Fallo de yo que sé");
         //si la cuenta no sale igual lanza mensaje error
     }
 }
