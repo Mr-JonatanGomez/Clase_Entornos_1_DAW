@@ -2,14 +2,14 @@ package ejemplo;
 
 
 
-public class NadadorJ5 {
+public class NadadorJ5forEclipse {
 
 
     private String nombre, dNI;
     private int edad, dorsal, valorEjercicio, dificultadEjercicio;
 
 
-    public NadadorJ5(int edad, int valorEjercicio, int dificultadEjercicio) {
+    public NadadorJ5forEclipse(int edad, int valorEjercicio, int dificultadEjercicio) {
 
         this.edad=edad;
         this.valorEjercicio=valorEjercicio;
